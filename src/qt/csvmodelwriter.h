@@ -37,6 +37,11 @@ private:
         int role;
     };
     QList<Column> columns;
+
+signals:
+
+public slots:
+
 };
 
 #endif // CSVMODELWRITER_H

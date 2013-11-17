@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Bitcoin developers</source>
+        <source>Dr. Kimoto Chan</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -245,7 +245,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>هشدار: اگر wallet رمزگذاری شود و شما passphrase را گم کنید شما همه اطلاعات bitcoin را از دست خواهید داد.</translation>
+        <translation>هشدار: اگر wallet رمزگذاری شود و شما passphrase را گم کنید شما همه اطلاعات BITCOINS را از دست خواهید داد.</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -272,7 +272,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-56"/>
         <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Biticon هم اکنون بسته می‌شود تا فرایند رمزگذاری را تمام کند. به خاطر داشته باشید که رمزگذاری کیف پولتان نمی‌تواند به طور کامل بیتیکون‌های شما را در برابر دزدیده شدن توسط بدافزارهایی که رایانه شما را آلوده می‌کنند، محافظت نماید.</translation>
+        <translation>Bitcoin هم اکنون بسته می‌شود تا فرایند رمزگذاری را تمام کند. به خاطر داشته باشید که رمزگذاری کیف پولتان نمی‌تواند به طور کامل بیتیکون‌های شما را در برابر دزدیده شدن توسط بدافزارهایی که رایانه شما را آلوده می‌کنند، محافظت نماید.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -416,7 +416,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-347"/>
         <source>Send coins to a Bitcoin address</source>
-        <translation>سکه ها را به آدرس bitocin ارسال کن</translation>
+        <translation>سکه ها را به آدرس Bitcoin ارسال کن</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -940,7 +940,7 @@ Address: %4
     <message>
         <location line="+9"/>
         <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation>تا آدرسهای bITCOIN در فهرست تراکنش نمایش داده شوند یا نشوند.</translation>
+        <translation>تا آدرسهای Bitcoin در فهرست تراکنش نمایش داده شوند یا نشوند.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1314,8 +1314,8 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 بتس</translation>
+        <source>123.456 MEC</source>
+        <translation>123.456 MEC</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1402,7 +1402,7 @@ Address: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>The address to send the payment to (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1443,8 +1443,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>آدرس بیتکویین وارد کنید  (bijvoorbeeld: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Bitcoin address (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>آدرس بیتکویین وارد کنید  (bijvoorbeeld: MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1466,8 +1466,8 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>آدرس برای امضا کردن پیام با (برای مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to sign the message with (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>آدرس برای امضا کردن پیام با (برای مثال MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1539,8 +1539,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>آدرس برای امضا کردن پیام با (برای مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address the message was signed with (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>آدرس برای امضا کردن پیام با (برای مثال MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1560,8 +1560,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>آدرس بیتکویین وارد کنید  (bijvoorbeeld: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Bitcoin address (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>آدرس بیتکویین وارد کنید  (bijvoorbeeld: MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1571,7 +1571,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Enter Bitcoin signature</source>
-        <translation>امضای BITOCOIN خود را وارد کنید</translation>
+        <translation>امضای Bitcoin خود را وارد کنید</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1644,7 +1644,7 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Bitcoin developers</source>
+        <source>Dr. Kimoto Chan</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2235,8 +2235,8 @@ Address: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>برای اتصالات به &lt;port&gt; (پیش‌فرض: 8333 یا تست‌نت: 18333) گوش کنید</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 7951 or testnet: 17951)</source>
+        <translation>برای اتصالات به &lt;port&gt; (پیش‌فرض: 7951 یا تست‌نت: 17951) گوش کنید</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2270,8 +2270,8 @@ Address: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>( 8332پیش فرض :) &amp;lt;poort&amp;gt; JSON-RPC شنوایی برای ارتباطات</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 7950 or testnet: 17950)</source>
+        <translation>( 7950پیش7950 :) &amp;lt;poort&amp;gt; JSON-RPC شنوایی برای ارتباطات</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2806,7 +2806,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>خطا در بارگیری wallet.dat: کیف پول به ویرایش جدیدتری از Biticon نیاز دارد</translation>
+        <translation>خطا در بارگیری wallet.dat: کیف پول به ویرایش جدیدتری از Bitcoin نیاز دارد</translation>
     </message>
     <message>
         <location line="+93"/>

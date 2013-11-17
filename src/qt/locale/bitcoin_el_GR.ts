@@ -34,8 +34,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Bitcoin developers</source>
-        <translation>Οι Bitcoin προγραμματιστές </translation>
+        <source>Dr. Kimoto Chan</source>
+        <translation>Dr. Kimoto Chan</translation>
     </message>
 </context>
 <context>
@@ -1410,8 +1410,8 @@ Address: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Διεύθυνση αποστολής της πληρωμής  (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to send the payment to (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Διεύθυνση αποστολής της πληρωμής  (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1451,8 +1451,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Εισάγετε μια διεύθυνση Bitcoin (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Bitcoin address (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Εισάγετε μια διεύθυνση Bitcoin (π.χ. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1474,8 +1474,8 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Εισάγετε μια διεύθυνση Bitcoin (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to sign the message with (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Εισάγετε μια διεύθυνση Bitcoin (π.χ. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1547,8 +1547,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Εισάγετε μια διεύθυνση Bitcoin (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address the message was signed with (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Εισάγετε μια διεύθυνση Bitcoin (π.χ. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1568,8 +1568,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Εισάγετε μια διεύθυνση Bitcoin (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Bitcoin address (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Εισάγετε μια διεύθυνση Bitcoin (π.χ. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1652,8 +1652,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Bitcoin developers</source>
-        <translation>Οι Bitcoin προγραμματιστές </translation>
+        <source>Dr. Kimoto Chan</source>
+        <translation>Dr. Kimoto Chan</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2240,8 +2240,8 @@ Address: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Εισερχόμενες συνδέσεις στη θύρα &lt;port&gt; (προεπιλογή: 8333 ή στο testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 7951 or testnet: 17951)</source>
+        <translation>Εισερχόμενες συνδέσεις στη θύρα &lt;port&gt; (προεπιλογή: 7951 ή στο testnet: 17951)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2275,8 +2275,8 @@ Address: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Εισερχόμενες συνδέσεις JSON-RPC στη θύρα &lt;port&gt; (προεπιλογή: 8332 or testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 7950 or testnet: 17950)</source>
+        <translation>Εισερχόμενες συνδέσεις JSON-RPC στη θύρα &lt;port&gt; (προεπιλογή: 7950 or testnet: 17950)</translation>
     </message>
     <message>
         <location line="+37"/>

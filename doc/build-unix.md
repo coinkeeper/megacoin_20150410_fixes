@@ -71,6 +71,12 @@ for other Ubuntu & Debian:
 
 	sudo apt-get install libdb4.8-dev
 	sudo apt-get install libdb4.8++-dev
+	or
+	sudo apt-get install libdb5.1-dev
+	sudo apt-get install libdb5.1++-dev
+	
+	then
+	
 	sudo apt-get install libboost1.37-dev
  (If using Boost 1.37, append -mt to the boost libraries in the makefile)
 

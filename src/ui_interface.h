@@ -1,5 +1,8 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2012 The Bitcoin developers
+// Copyright (c) 2013-2013 CopperLark developers
+// Copyright (c) 2013-2079 Dr. Kimoto Chan
+// Copyright (c) 2013-2079 The Megacoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_UI_INTERFACE_H
@@ -93,6 +96,8 @@ public:
      * @note called with lock cs_mapAlerts held.
      */
     boost::signals2::signal<void (const uint256 &hash, ChangeType status)> NotifyAlertChanged;
+
+    boost::signals2::signal<void (const uint256 &hash, ChangeType status)> NotifyNewsMessageChanged;
 };
 
 extern CClientUIInterface uiInterface;
