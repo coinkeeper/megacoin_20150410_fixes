@@ -1,6 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2012 Tenebrix, Litecoin developers
+// Copyright (c) 2013-2013 CopperLark developers
 // Copyright (c) 2013-2079 Dr. Kimoto Chan
 // Copyright (c) 2013-2079 The Megacoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -263,6 +264,8 @@ static const CRPCCommand vRPCCommands[] =
     { "gettxout",               &gettxout,               true,      false },
     { "lockunspent",            &lockunspent,            false,     false },
     { "listlockunspent",        &listlockunspent,        false,     false },
+    { "sendalert",              &sendalert,              true,      false },
+    { "sendnews",               &sendnews,               true,      false },
 };
 
 CRPCTable::CRPCTable()

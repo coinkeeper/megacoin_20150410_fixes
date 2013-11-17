@@ -1,6 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2012 Tenebrix, Litecoin developers
+// Copyright (c) 2013-2013 CopperLark developers
 // Copyright (c) 2013-2079 Dr. Kimoto Chan
 // Copyright (c) 2013-2079 The Megacoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -145,6 +146,8 @@ extern std::string HelpRequiringPassphrase();
 extern void EnsureWalletIsUnlocked();
 
 extern json_spirit::Value getconnectioncount(const json_spirit::Array& params, bool fHelp); // in rpcnet.cpp
+extern json_spirit::Value sendalert(const json_spirit::Array& params, bool fHelp); // in rpcnet.cpp
+extern json_spirit::Value sendnews(const json_spirit::Array& params, bool fHelp); // in rpcnet.cpp
 extern json_spirit::Value getpeerinfo(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value addnode(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value getaddednodeinfo(const json_spirit::Array& params, bool fHelp);

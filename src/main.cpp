@@ -2,12 +2,14 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2012 Tenebrix, Litecoin developers
 // Copyright (c) 2012-2013 Freicoin developers
+// Copyright (c) 2013-2013 CopperLark developers
 // Copyright (c) 2013-2079 Dr. Kimoto Chan
 // Copyright (c) 2013-2079 The Megacoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "alert.h"
+#include "newsmessage.h"
 #include "checkpoints.h"
 #include "db.h"
 #include "txdb.h"
@@ -2305,7 +2307,7 @@ bool CBlock::CheckBlock(CValidationState &state, bool fCheckPOW, bool fCheckMerk
     if (fCheckMerkleRoot && hashMerkleRoot != BuildMerkleTree())
         return state.DoS(100, error("CheckBlock() : hashMerkleRoot mismatch"));
 
-    return true;
+	return true;
 }
 
 bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
@@ -3221,8 +3223,12 @@ string GetWarnings(string strFor)
 }
 
 
-
-
+//////////////////////////////////////////////////////////////////////////////
+//
+// CNewsMessage
+//
+extern map<uint256, CNewsMessage> mapNewsMessages;
+extern CCriticalSection cs_mapNewsMessages;
 
 
 
@@ -3480,7 +3486,14 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
             BOOST_FOREACH(PAIRTYPE(const uint256, CAlert)& item, mapAlerts)
                 item.second.RelayTo(pfrom);
         }
-
+	
+        // Relay news
+        {
+            LOCK(cs_mapNewsMessages);
+            BOOST_FOREACH(PAIRTYPE(const uint256, CNewsMessage)& item, mapNewsMessages)
+                item.second.RelayTo(pfrom);
+        }
+	
         pfrom->fSuccessfullyConnected = true;
 
         printf("receive version message: version %d, blocks=%d, us=%s, them=%s, peer=%s\n", pfrom->nVersion, pfrom->nStartingHeight, addrMe.ToString().c_str(), addrFrom.ToString().c_str(), pfrom->addr.ToString().c_str());
@@ -3882,6 +3895,30 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
         }
     }
 
+
+    else if (strCommand == "news")
+    {
+        CNewsMessage message;
+        vRecv >> message;
+
+        uint256 messageHash = message.GetHash();
+        if (pfrom->setKnown.count(messageHash) == 0)
+        {
+            if (message.ProcessMessage())
+            {
+                // Relay
+                pfrom->setKnown.insert(messageHash);
+                {
+                    LOCK(cs_vNodes);
+                    BOOST_FOREACH(CNode* pnode, vNodes)
+                        message.RelayTo(pnode);
+                }
+            }
+            else {
+                pfrom->Misbehaving(10);
+            }
+        }
+    }
 
     else if (strCommand == "filterload")
     {
