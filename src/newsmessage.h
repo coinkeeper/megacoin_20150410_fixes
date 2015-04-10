@@ -1,6 +1,8 @@
 #ifndef CNEWSMESSAGE_H
 #define CNEWSMESSAGE_H
 
+#include <boost/algorithm/string.hpp>
+
 #include <set>
 #include <string>
 
